@@ -138,7 +138,7 @@ export default function Home() {
               {error}
             </div>
           )}
-
+          <h1>Hello</h1>
           <div className="grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-3">
             <DashboardCard
               title="Weekly Schedule"

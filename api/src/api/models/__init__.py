@@ -4,6 +4,17 @@ from .shift_type import ShiftType
 from .shift import Shift
 from .schedule import Schedule
 from .rules import Rules
+from .schedule_change import (
+    ScheduleChangeAnalysis,
+    ScheduleChangeRequest,
+    ScheduleChangeResponse
+)
+from .requests import (
+    MessageResponse,
+    EmployeeCreateRequest,
+    ScheduleCreateRequest,
+    RulesUpdateRequest
+)
 
 __all__ = [
     'Employee',
@@ -11,5 +22,12 @@ __all__ = [
     'ShiftType',
     'Shift',
     'Schedule',
-    'Rules'
+    'Rules',
+    'ScheduleChangeAnalysis',
+    'ScheduleChangeRequest',
+    'ScheduleChangeResponse',
+    'MessageResponse',
+    'EmployeeCreateRequest',
+    'ScheduleCreateRequest',
+    'RulesUpdateRequest'
 ] 

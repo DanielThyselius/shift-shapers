@@ -35,15 +35,39 @@ def process_schedule_change(
     current_schedule: List[Dict],
     rules: Dict
 ) -> ScheduleChangeAnalysis:
+    
+    # Read the current schedule (for now we can start with a hardcoded schedule, ie sample schedule)
+    
+
     """Process a natural language schedule change request."""
     analysis_result, _ = opper.call(
         name="analyze_schedule_change",
         instructions="""
-        Analyze this schedule change request considering the rules and provide a clear recommendation.
-        Extract the employee name, target dates, reason for change, and suggest replacements if applicable.
-        Use the provided employee and schedule information to make an informed recommendation.
-        Consider workload balance, consecutive shifts, and employee absences in your analysis.
-        Include the original query text in your analysis.
+        Analyze this schedule change request and optimize the schedule according to the following criteria:
+        1. Each employee should work approximately 36 hours per week
+        2. Never less than 1 person working at any time
+        3. Never more than 3 people working at any time
+        4. No rules should be violated
+        
+        The input data follows this structure:
+        - employees: List of employees with name, employee_number, and work_load
+        - shift_types: List of shift types with id and time_slots (start_time, end_time, duration)
+        - shifts: List of shifts with start_date, employee, and shift_type
+        - schedule: Contains all shift types
+        - rules: Contains scheduling rules and constraints
+        
+        Your task is to:
+        1. Analyze the current schedule and identify any issues
+        2. Suggest changes to meet the target hours and staffing requirements
+        3. Ensure all rules are respected
+        4. Provide a clear recommendation with reasoning
+        5. Include specific changes needed to implement the recommendation
+        
+        Consider:
+        - Workload balance across employees
+        - Shift type distribution
+        - Employee preferences and constraints
+        - Business requirements for minimum and maximum staff
         """,
         input={
             "request": request_text,
@@ -253,43 +277,7 @@ async def process_schedule_change_request(
     opper: OpperHandle
 ) -> ScheduleChangeResponse:
     """Process a natural language schedule change request."""
-    # Get all employees
-    try:
-        employees = db.get_employees()
-        formatted_employees = [
-            {
-                "name": emp["name"],
-                "employee_number": emp["employee_number"],
-                "first_line_support_count": emp["first_line_support_count"],
-                "known_absences": emp["known_absences"]
-            }
-            for emp in employees
-        ]
-    except Exception as e:
-        logger.error(f"Error fetching employees: {str(e)}")
-        raise HTTPException(status_code=500, detail=f"Error fetching employees: {str(e)}")
-
-    # Get all schedules
-    try:
-        schedules = db.get_schedules()
-        formatted_schedules = [
-            {
-                "date": schedule["date"],
-                "first_line_support": schedule["first_line_support"]
-            }
-            for schedule in schedules
-        ]
-    except Exception as e:
-        logger.error(f"Error fetching schedules: {str(e)}")
-        raise HTTPException(status_code=500, detail=f"Error fetching schedules: {str(e)}")
-
-    # Get rules
-    try:
-        rules = db.get_rules()
-    except Exception as e:
-        logger.error(f"Error fetching rules: {str(e)}")
-        raise HTTPException(status_code=500, detail=f"Error fetching rules: {str(e)}")
-
+    
     # Process the request
     try:
         analysis = process_schedule_change(
