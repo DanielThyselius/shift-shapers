@@ -1,0 +1,2864 @@
+<?xml version="1.0" standalone="yes"?>
+<ScheduleData>
+  <Version>
+    <AppVersion>6.1.50.1</AppVersion>
+  </Version>
+  <Settings>
+    <ID>1</ID>
+    <Name>Begränsningsperiod</Name>
+    <Value>6</Value>
+    <Type>6</Type>
+    <Choices>1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24|25|26|27|28|29|30</Choices>
+    <Info>Med denna inställning väljer du begränsningsperiod för ditt arbetsschema. Du kan välja
+      mellan ett 1-24 veckors rullande arbetsschema.</Info>
+  </Settings>
+  <Settings>
+    <ID>2</ID>
+    <Name>Startdatum för arbetsschema</Name>
+    <Value>2025-01-06</Value>
+    <Type>4</Type>
+    <Choices />
+    <Info>Med denna inställning väljer du startdatum för ditt arbetsschema. Detta datum används
+      sedan av programmet för att räkna ut korrekta veckor/datum i arbetsschemat.</Info>
+  </Settings>
+  <Settings>
+    <ID>3</ID>
+    <Name>Startdatum för semesterschema</Name>
+    <Value>2025-06-02</Value>
+    <Type>4</Type>
+    <Choices />
+    <Info>Med denna inställning väljer du startdatum för ditt semesterschema. Detta datum används
+      sedan av programmet för att räkna ut korrekta veckor/datum i semesterschemat.</Info>
+  </Settings>
+  <Settings>
+    <ID>4</ID>
+    <Name>Beräkningsmetod för tjänstgöringsgrad</Name>
+    <Value>2</Value>
+    <Type>6</Type>
+    <Choices>1 - Kommunalavtal|2 - Privatvårdsavtal|3 - Kommunalavtal med avrundning</Choices>
+    <Info>Med denna inställning väljer du beräkningsmetod för tjänstgöringsgrad. Du kan välja mellan
+      1 - Beräkning enl. kommunalavtal, 2 - Beräkning enl. privatvårdsavtal eller 3 - Kommunalavtal
+      med avrundning.</Info>
+  </Settings>
+  <Settings>
+    <ID>5</ID>
+    <Name>Starttid för täthetsschema</Name>
+    <Value>00:00</Value>
+    <Type>6</Type>
+    <Choices>
+      00:00|01:00|02:00|03:00|04:00|05:00|06:00|07:00|08:00|09:00|10:00|11:00|12:00|13:00|14:00|15:00|16:00|17:00|18:00|19:00|20:00|21:00|22:00|23:00</Choices>
+    <Info>Med denna inställning väljer du fr.o.m. vilket klockslag som turer skall visas i
+      täthetsschemat.</Info>
+  </Settings>
+  <Settings>
+    <ID>6</ID>
+    <Name>Sluttid för täthetsschema</Name>
+    <Value>00:00</Value>
+    <Type>6</Type>
+    <Choices>
+      00:00|01:00|02:00|03:00|04:00|05:00|06:00|07:00|08:00|09:00|10:00|11:00|12:00|13:00|14:00|15:00|16:00|17:00|18:00|19:00|20:00|21:00|22:00|23:00</Choices>
+    <Info>Med denna inställning väljer du t.o.m. vilket klockslag som turer skall visas i
+      täthetsschemat.</Info>
+  </Settings>
+  <Settings>
+    <ID>7</ID>
+    <Name>Antal dygn i täthetsschema</Name>
+    <Value>2</Value>
+    <Type>6</Type>
+    <Choices>1|2|3|4|5</Choices>
+    <Info>Med denna inställning väljer du hur många dygn som skall visas i täthetsschemat.</Info>
+  </Settings>
+  <Settings>
+    <ID>8</ID>
+    <Name>Dispens för 11 timmars regel vid schemaanalys</Name>
+    <Value>0</Value>
+    <Type>9</Type>
+    <Choices />
+    <Info>Med denna inställning anger du om programmet skall hantera dispens för 11 timmarsregeln i
+      samband med schemaanalys och i stället tillåta 9 timmar sammanhängande ledighet under ett och
+      samma dygn alternativt 9 timmar sammanhängande ledighet med kompensationsationsvila under
+      närmast efterföljande dygn.</Info>
+  </Settings>
+  <Settings>
+    <ID>9</ID>
+    <Name>Visa kalenderveckor i arbetsschemavyer</Name>
+    <Value>1</Value>
+    <Type>9</Type>
+    <Choices />
+    <Info>Med denna inställning anger du om kalenderveckor eller rullande schemaveckor skall visas i
+      programmets arbetsschemavyer för grundscheman. Denna inställning anger även om datum skall
+      visas i dessa arbetsschemavyer.</Info>
+  </Settings>
+  <Settings>
+    <ID>10</ID>
+    <Name>Antal vårdtagare</Name>
+    <Value>0</Value>
+    <Type>1</Type>
+    <Choices />
+    <Info>Här anger du det antal vårdtagare som ska ligga till grund för bemanningen i ditt
+      arbetsschema. Om du anger ett värde större än 0 här så kan Schemalätt beräkna nyckeltal för
+      personaltätheten i ditt arbetsschema.</Info>
+  </Settings>
+  <Settings>
+    <ID>11</ID>
+    <Name />
+    <Value />
+    <Type>0</Type>
+    <Choices />
+    <Info />
+  </Settings>
+  <Settings>
+    <ID>12</ID>
+    <Name />
+    <Value />
+    <Type>0</Type>
+    <Choices />
+    <Info />
+  </Settings>
+  <Settings>
+    <ID>13</ID>
+    <Name>Begränsningsperiod semesterschema</Name>
+    <Value>12</Value>
+    <Type>6</Type>
+    <Choices>1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24|25|26|27|28|29|30</Choices>
+    <Info>Med denna inställning väljer du begränsningsperiod för ditt semesterschema. Du kan välja
+      mellan ett 1-24 veckors semesterschema.</Info>
+  </Settings>
+  <Settings>
+    <ID>14</ID>
+    <Name>Kollektivavtal</Name>
+    <Value>Kommunalavtal AB</Value>
+    <Type>6</Type>
+    <Choices>Kommunalavtal AB|Bransch E|Bransch F|Bransch G|Bransch
+      H|PAN|KFS|Arbetsgivaralliansen|KFO</Choices>
+    <Info>Med hjälp av denna inställning kan du ange det kollektivavtal som skall tillämpas i
+      samband med beräkning av lönekostnader i Schemalätt.</Info>
+  </Settings>
+  <Settings>
+    <ID>15</ID>
+    <Name />
+    <Value />
+    <Type>0</Type>
+    <Choices />
+    <Info />
+  </Settings>
+  <Settings>
+    <ID>16</ID>
+    <Name />
+    <Value />
+    <Type>0</Type>
+    <Choices />
+    <Info />
+  </Settings>
+  <Settings>
+    <ID>17</ID>
+    <Name />
+    <Value />
+    <Type>0</Type>
+    <Choices />
+    <Info />
+  </Settings>
+  <Settings>
+    <ID>18</ID>
+    <Name />
+    <Value />
+    <Type>0</Type>
+    <Choices />
+    <Info />
+  </Settings>
+  <Settings>
+    <ID>19</ID>
+    <Name />
+    <Value />
+    <Type>0</Type>
+    <Choices />
+    <Info />
+  </Settings>
+  <Settings>
+    <ID>20</ID>
+    <Name />
+    <Value />
+    <Type>0</Type>
+    <Choices />
+    <Info />
+  </Settings>
+  <Department>
+    <DepartmentName>Eken1</DepartmentName>
+    <OrganizationName>Vård &amp; Omsorg AB</OrganizationName>
+    <OrganizationNo />
+    <Address1 />
+    <Address2 />
+    <ZipCode />
+    <City />
+    <Phone1 />
+    <Phone2 />
+    <Email />
+    <SiteAddress />
+    <CostCenter />
+  </Department>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>6</Row>
+    <Week>1</Week>
+    <Day>5</Day>
+    <ShiftID>N</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>6</Row>
+    <Week>1</Week>
+    <Day>6</Day>
+    <ShiftID>HN</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>6</Row>
+    <Week>1</Week>
+    <Day>7</Day>
+    <ShiftID>HN</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>6</Row>
+    <Week>2</Week>
+    <Day>3</Day>
+    <ShiftID>M+N</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>6</Row>
+    <Week>2</Week>
+    <Day>4</Day>
+    <ShiftID>N</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>6</Row>
+    <Week>3</Week>
+    <Day>1</Day>
+    <ShiftID>N</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>6</Row>
+    <Week>3</Week>
+    <Day>2</Day>
+    <ShiftID>N2</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>6</Row>
+    <Week>4</Week>
+    <Day>5</Day>
+    <ShiftID>N</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>6</Row>
+    <Week>4</Week>
+    <Day>6</Day>
+    <ShiftID>HN</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>6</Row>
+    <Week>4</Week>
+    <Day>7</Day>
+    <ShiftID>HN</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>6</Row>
+    <Week>5</Week>
+    <Day>3</Day>
+    <ShiftID>M+N</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>6</Row>
+    <Week>5</Week>
+    <Day>4</Day>
+    <ShiftID>N</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>6</Row>
+    <Week>6</Week>
+    <Day>1</Day>
+    <ShiftID>N</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>6</Row>
+    <Week>6</Week>
+    <Day>2</Day>
+    <ShiftID>N2</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>1</Row>
+    <Week>1</Week>
+    <Day>1</Day>
+    <ShiftID>D</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>1</Row>
+    <Week>1</Week>
+    <Day>2</Day>
+    <ShiftID>D</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>1</Row>
+    <Week>1</Week>
+    <Day>3</Day>
+    <ShiftID>D</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>1</Row>
+    <Week>1</Week>
+    <Day>4</Day>
+    <ShiftID>D</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>2</GroupID>
+    <Row>1</Row>
+    <Week>1</Week>
+    <Day>5</Day>
+    <ShiftID>DF</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>1</Row>
+    <Week>2</Week>
+    <Day>1</Day>
+    <ShiftID>D</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>1</Row>
+    <Week>2</Week>
+    <Day>2</Day>
+    <ShiftID>D</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>1</Row>
+    <Week>2</Week>
+    <Day>3</Day>
+    <ShiftID>D</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>1</Row>
+    <Week>2</Week>
+    <Day>4</Day>
+    <ShiftID>D</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>2</GroupID>
+    <Row>1</Row>
+    <Week>2</Week>
+    <Day>5</Day>
+    <ShiftID>DF</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>1</Row>
+    <Week>3</Week>
+    <Day>1</Day>
+    <ShiftID>D</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>1</Row>
+    <Week>3</Week>
+    <Day>2</Day>
+    <ShiftID>D</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>1</Row>
+    <Week>3</Week>
+    <Day>3</Day>
+    <ShiftID>D</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>1</Row>
+    <Week>3</Week>
+    <Day>4</Day>
+    <ShiftID>D</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>2</GroupID>
+    <Row>1</Row>
+    <Week>3</Week>
+    <Day>5</Day>
+    <ShiftID>DF</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>1</Row>
+    <Week>4</Week>
+    <Day>1</Day>
+    <ShiftID>D</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>1</Row>
+    <Week>4</Week>
+    <Day>2</Day>
+    <ShiftID>D</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>1</Row>
+    <Week>4</Week>
+    <Day>3</Day>
+    <ShiftID>D</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>1</Row>
+    <Week>4</Week>
+    <Day>4</Day>
+    <ShiftID>D</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>2</GroupID>
+    <Row>1</Row>
+    <Week>4</Week>
+    <Day>5</Day>
+    <ShiftID>DF</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>1</Row>
+    <Week>5</Week>
+    <Day>1</Day>
+    <ShiftID>D</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>1</Row>
+    <Week>5</Week>
+    <Day>2</Day>
+    <ShiftID>D</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>1</Row>
+    <Week>5</Week>
+    <Day>3</Day>
+    <ShiftID>D</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>1</Row>
+    <Week>5</Week>
+    <Day>4</Day>
+    <ShiftID>D</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>2</GroupID>
+    <Row>1</Row>
+    <Week>5</Week>
+    <Day>5</Day>
+    <ShiftID>DF</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>1</Row>
+    <Week>6</Week>
+    <Day>1</Day>
+    <ShiftID>D</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>1</Row>
+    <Week>6</Week>
+    <Day>2</Day>
+    <ShiftID>D</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>1</Row>
+    <Week>6</Week>
+    <Day>3</Day>
+    <ShiftID>D</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>1</Row>
+    <Week>6</Week>
+    <Day>4</Day>
+    <ShiftID>D</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>2</GroupID>
+    <Row>1</Row>
+    <Week>6</Week>
+    <Day>5</Day>
+    <ShiftID>DF</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>6</Row>
+    <Week>1</Week>
+    <Day>3</Day>
+    <ShiftID>MÖ2</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>6</Row>
+    <Week>3</Week>
+    <Day>3</Day>
+    <ShiftID>MÖ</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>6</Row>
+    <Week>4</Week>
+    <Day>3</Day>
+    <ShiftID>MÖ2</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>6</Row>
+    <Week>6</Week>
+    <Day>3</Day>
+    <ShiftID>MÖ</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>8</Row>
+    <Week>1</Week>
+    <Day>5</Day>
+    <ShiftID>BH</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>8</Row>
+    <Week>1</Week>
+    <Day>6</Day>
+    <ShiftID>BH</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>8</Row>
+    <Week>1</Week>
+    <Day>7</Day>
+    <ShiftID>BV</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>8</Row>
+    <Week>3</Week>
+    <Day>1</Day>
+    <ShiftID>BV</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>8</Row>
+    <Week>3</Week>
+    <Day>2</Day>
+    <ShiftID>BV</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>8</Row>
+    <Week>3</Week>
+    <Day>3</Day>
+    <ShiftID>BV</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>8</Row>
+    <Week>3</Week>
+    <Day>4</Day>
+    <ShiftID>BV</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>8</Row>
+    <Week>4</Week>
+    <Day>5</Day>
+    <ShiftID>BH</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>8</Row>
+    <Week>4</Week>
+    <Day>6</Day>
+    <ShiftID>BH</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>8</Row>
+    <Week>4</Week>
+    <Day>7</Day>
+    <ShiftID>BV</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>8</Row>
+    <Week>6</Week>
+    <Day>1</Day>
+    <ShiftID>BV</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>8</Row>
+    <Week>6</Week>
+    <Day>2</Day>
+    <ShiftID>BV</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>8</Row>
+    <Week>6</Week>
+    <Day>3</Day>
+    <ShiftID>BV</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>8</Row>
+    <Week>6</Week>
+    <Day>4</Day>
+    <ShiftID>BV</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>9</Row>
+    <Week>1</Week>
+    <Day>3</Day>
+    <ShiftID>DL</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>9</Row>
+    <Week>2</Week>
+    <Day>1</Day>
+    <ShiftID>BV</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>9</Row>
+    <Week>2</Week>
+    <Day>2</Day>
+    <ShiftID>BV</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>9</Row>
+    <Week>2</Week>
+    <Day>3</Day>
+    <ShiftID>BV</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>9</Row>
+    <Week>2</Week>
+    <Day>4</Day>
+    <ShiftID>BV</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>9</Row>
+    <Week>3</Week>
+    <Day>3</Day>
+    <ShiftID>DL</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>9</Row>
+    <Week>3</Week>
+    <Day>5</Day>
+    <ShiftID>BH</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>9</Row>
+    <Week>3</Week>
+    <Day>6</Day>
+    <ShiftID>BH</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>9</Row>
+    <Week>3</Week>
+    <Day>7</Day>
+    <ShiftID>BV</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>9</Row>
+    <Week>4</Week>
+    <Day>3</Day>
+    <ShiftID>DL</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>9</Row>
+    <Week>5</Week>
+    <Day>1</Day>
+    <ShiftID>BV</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>9</Row>
+    <Week>5</Week>
+    <Day>2</Day>
+    <ShiftID>BV</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>9</Row>
+    <Week>5</Week>
+    <Day>3</Day>
+    <ShiftID>BV</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>9</Row>
+    <Week>5</Week>
+    <Day>4</Day>
+    <ShiftID>BV</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>9</Row>
+    <Week>6</Week>
+    <Day>3</Day>
+    <ShiftID>DL</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>9</Row>
+    <Week>6</Week>
+    <Day>5</Day>
+    <ShiftID>BH</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>9</Row>
+    <Week>6</Week>
+    <Day>6</Day>
+    <ShiftID>BH</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>9</Row>
+    <Week>6</Week>
+    <Day>7</Day>
+    <ShiftID>BV</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>7</Row>
+    <Week>1</Week>
+    <Day>1</Day>
+    <ShiftID>BV</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>7</Row>
+    <Week>1</Week>
+    <Day>2</Day>
+    <ShiftID>BV</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>7</Row>
+    <Week>1</Week>
+    <Day>3</Day>
+    <ShiftID>BV</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>7</Row>
+    <Week>1</Week>
+    <Day>4</Day>
+    <ShiftID>BV</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>7</Row>
+    <Week>2</Week>
+    <Day>5</Day>
+    <ShiftID>BH</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>7</Row>
+    <Week>2</Week>
+    <Day>6</Day>
+    <ShiftID>BH</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>7</Row>
+    <Week>2</Week>
+    <Day>7</Day>
+    <ShiftID>BV</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>7</Row>
+    <Week>4</Week>
+    <Day>1</Day>
+    <ShiftID>BV</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>7</Row>
+    <Week>4</Week>
+    <Day>2</Day>
+    <ShiftID>BV</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>7</Row>
+    <Week>4</Week>
+    <Day>3</Day>
+    <ShiftID>BV</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>7</Row>
+    <Week>4</Week>
+    <Day>4</Day>
+    <ShiftID>BV</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>7</Row>
+    <Week>5</Week>
+    <Day>5</Day>
+    <ShiftID>BH</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>7</Row>
+    <Week>5</Week>
+    <Day>6</Day>
+    <ShiftID>BH</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>7</Row>
+    <Week>5</Week>
+    <Day>7</Day>
+    <ShiftID>BV</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>2</Row>
+    <Week>1</Week>
+    <Day>1</Day>
+    <ShiftID>E1</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>2</Row>
+    <Week>1</Week>
+    <Day>2</Day>
+    <ShiftID>E1</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>2</Row>
+    <Week>1</Week>
+    <Day>6</Day>
+    <ShiftID>DH6</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>2</Row>
+    <Week>1</Week>
+    <Day>7</Day>
+    <ShiftID>DH6</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>2</Row>
+    <Week>2</Week>
+    <Day>3</Day>
+    <ShiftID>EM</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>2</Row>
+    <Week>2</Week>
+    <Day>4</Day>
+    <ShiftID>E3</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>2</Row>
+    <Week>3</Week>
+    <Day>1</Day>
+    <ShiftID>E1</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>2</Row>
+    <Week>3</Week>
+    <Day>2</Day>
+    <ShiftID>E1</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>2</Row>
+    <Week>3</Week>
+    <Day>6</Day>
+    <ShiftID>DH6</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>2</Row>
+    <Week>3</Week>
+    <Day>7</Day>
+    <ShiftID>DH6</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>2</Row>
+    <Week>4</Week>
+    <Day>3</Day>
+    <ShiftID>EM</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>2</Row>
+    <Week>4</Week>
+    <Day>4</Day>
+    <ShiftID>E3</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>2</Row>
+    <Week>5</Week>
+    <Day>1</Day>
+    <ShiftID>E1</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>2</Row>
+    <Week>5</Week>
+    <Day>2</Day>
+    <ShiftID>E1</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>2</Row>
+    <Week>5</Week>
+    <Day>6</Day>
+    <ShiftID>DH</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>2</Row>
+    <Week>5</Week>
+    <Day>7</Day>
+    <ShiftID>DH</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>2</Row>
+    <Week>6</Week>
+    <Day>3</Day>
+    <ShiftID>EM</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>2</Row>
+    <Week>6</Week>
+    <Day>4</Day>
+    <ShiftID>E3</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>3</Row>
+    <Week>1</Week>
+    <Day>3</Day>
+    <ShiftID>EM</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>3</Row>
+    <Week>1</Week>
+    <Day>4</Day>
+    <ShiftID>E3</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>3</Row>
+    <Week>2</Week>
+    <Day>1</Day>
+    <ShiftID>E1</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>3</Row>
+    <Week>2</Week>
+    <Day>2</Day>
+    <ShiftID>E1</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>3</Row>
+    <Week>2</Week>
+    <Day>6</Day>
+    <ShiftID>DH</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>3</Row>
+    <Week>2</Week>
+    <Day>7</Day>
+    <ShiftID>DH</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>3</Row>
+    <Week>3</Week>
+    <Day>3</Day>
+    <ShiftID>EM</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>3</Row>
+    <Week>3</Week>
+    <Day>4</Day>
+    <ShiftID>E3</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>3</Row>
+    <Week>4</Week>
+    <Day>1</Day>
+    <ShiftID>E1</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>3</Row>
+    <Week>4</Week>
+    <Day>2</Day>
+    <ShiftID>E1</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>3</Row>
+    <Week>4</Week>
+    <Day>6</Day>
+    <ShiftID>DH6</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>3</Row>
+    <Week>4</Week>
+    <Day>7</Day>
+    <ShiftID>DH6</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>3</Row>
+    <Week>5</Week>
+    <Day>3</Day>
+    <ShiftID>EM</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>3</Row>
+    <Week>5</Week>
+    <Day>4</Day>
+    <ShiftID>E3</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>3</Row>
+    <Week>6</Week>
+    <Day>1</Day>
+    <ShiftID>E1</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>3</Row>
+    <Week>6</Week>
+    <Day>2</Day>
+    <ShiftID>E1</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>3</Row>
+    <Week>6</Week>
+    <Day>6</Day>
+    <ShiftID>DH6</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>3</Row>
+    <Week>6</Week>
+    <Day>7</Day>
+    <ShiftID>DH6</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>3</Row>
+    <Week>2</Week>
+    <Day>3</Day>
+    <ShiftID>M</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>3</Row>
+    <Week>4</Week>
+    <Day>3</Day>
+    <ShiftID>M</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>3</Row>
+    <Week>6</Week>
+    <Day>3</Day>
+    <ShiftID>M</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>2</Row>
+    <Week>1</Week>
+    <Day>3</Day>
+    <ShiftID>M</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>2</Row>
+    <Week>3</Week>
+    <Day>3</Day>
+    <ShiftID>M</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>2</Row>
+    <Week>5</Week>
+    <Day>3</Day>
+    <ShiftID>M</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>3</Row>
+    <Week>2</Week>
+    <Day>5</Day>
+    <ShiftID>E1</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>3</Row>
+    <Week>4</Week>
+    <Day>5</Day>
+    <ShiftID>E1</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>3</Row>
+    <Week>6</Week>
+    <Day>5</Day>
+    <ShiftID>E1</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>2</Row>
+    <Week>1</Week>
+    <Day>5</Day>
+    <ShiftID>E1</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>2</Row>
+    <Week>3</Week>
+    <Day>5</Day>
+    <ShiftID>E1</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>2</Row>
+    <Week>5</Week>
+    <Day>5</Day>
+    <ShiftID>E1</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>5</Row>
+    <Week>1</Week>
+    <Day>1</Day>
+    <ShiftID>N</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>5</Row>
+    <Week>1</Week>
+    <Day>2</Day>
+    <ShiftID>N2</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>5</Row>
+    <Week>1</Week>
+    <Day>3</Day>
+    <ShiftID>MÖ</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>5</Row>
+    <Week>2</Week>
+    <Day>3</Day>
+    <ShiftID>MÖ2</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>5</Row>
+    <Week>2</Week>
+    <Day>5</Day>
+    <ShiftID>N</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>5</Row>
+    <Week>2</Week>
+    <Day>6</Day>
+    <ShiftID>HN</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>5</Row>
+    <Week>2</Week>
+    <Day>7</Day>
+    <ShiftID>HN</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>5</Row>
+    <Week>3</Week>
+    <Day>3</Day>
+    <ShiftID>M+N</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>5</Row>
+    <Week>3</Week>
+    <Day>4</Day>
+    <ShiftID>N</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>5</Row>
+    <Week>4</Week>
+    <Day>1</Day>
+    <ShiftID>N</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>5</Row>
+    <Week>4</Week>
+    <Day>2</Day>
+    <ShiftID>N2</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>5</Row>
+    <Week>4</Week>
+    <Day>3</Day>
+    <ShiftID>MÖ</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>5</Row>
+    <Week>5</Week>
+    <Day>3</Day>
+    <ShiftID>MÖ2</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>5</Row>
+    <Week>5</Week>
+    <Day>5</Day>
+    <ShiftID>N</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>5</Row>
+    <Week>5</Week>
+    <Day>6</Day>
+    <ShiftID>HN</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>5</Row>
+    <Week>5</Week>
+    <Day>7</Day>
+    <ShiftID>HN</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>5</Row>
+    <Week>6</Week>
+    <Day>3</Day>
+    <ShiftID>M+N</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>5</Row>
+    <Week>6</Week>
+    <Day>4</Day>
+    <ShiftID>N</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>4</Row>
+    <Week>1</Week>
+    <Day>3</Day>
+    <ShiftID>RMN</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>4</Row>
+    <Week>1</Week>
+    <Day>4</Day>
+    <ShiftID>RN</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>4</Row>
+    <Week>2</Week>
+    <Day>1</Day>
+    <ShiftID>RN</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>4</Row>
+    <Week>2</Week>
+    <Day>2</Day>
+    <ShiftID>N2</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>4</Row>
+    <Week>2</Week>
+    <Day>3</Day>
+    <ShiftID>MÖ</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>4</Row>
+    <Week>3</Week>
+    <Day>3</Day>
+    <ShiftID>MÖ</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>4</Row>
+    <Week>3</Week>
+    <Day>5</Day>
+    <ShiftID>RN</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>4</Row>
+    <Week>3</Week>
+    <Day>6</Day>
+    <ShiftID>RH</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>4</Row>
+    <Week>3</Week>
+    <Day>7</Day>
+    <ShiftID>RH</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>4</Row>
+    <Week>4</Week>
+    <Day>3</Day>
+    <ShiftID>RMN</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>4</Row>
+    <Week>4</Week>
+    <Day>4</Day>
+    <ShiftID>RN</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>4</Row>
+    <Week>5</Week>
+    <Day>1</Day>
+    <ShiftID>RN</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>4</Row>
+    <Week>5</Week>
+    <Day>2</Day>
+    <ShiftID>N2</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>4</Row>
+    <Week>5</Week>
+    <Day>3</Day>
+    <ShiftID>MÖ</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>4</Row>
+    <Week>6</Week>
+    <Day>3</Day>
+    <ShiftID>MÖ</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>4</Row>
+    <Week>6</Week>
+    <Day>5</Day>
+    <ShiftID>RN</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>4</Row>
+    <Week>6</Week>
+    <Day>6</Day>
+    <ShiftID>RH</ShiftID>
+    <Note />
+  </TimeTable>
+  <TimeTable>
+    <GroupID>1</GroupID>
+    <Row>4</Row>
+    <Week>6</Week>
+    <Day>7</Day>
+    <ShiftID>RH</ShiftID>
+    <Note />
+  </TimeTable>
+  <Shift>
+    <ShiftID>N</ShiftID>
+    <GroupID>1</GroupID>
+    <ShiftTimes>21:00-09:15</ShiftTimes>
+    <Hours>12.25</Hours>
+    <Break>0</Break>
+    <Duty>0</Duty>
+    <Prep>0</Prep>
+    <Plan>0</Plan>
+    <Res>0</Res>
+    <DutyAss>0</DutyAss>
+    <IgnoreBreak>0</IgnoreBreak>
+    <Ignore11HourRest>0</Ignore11HourRest>
+    <Note />
+    <ServiceLevelBreak>0</ServiceLevelBreak>
+    <Color>0</Color>
+    <Hidden>0</Hidden>
+  </Shift>
+  <Shift>
+    <ShiftID>HN</ShiftID>
+    <GroupID>1</GroupID>
+    <ShiftTimes>17:45-09:15</ShiftTimes>
+    <Hours>15.5</Hours>
+    <Break>0</Break>
+    <Duty>0</Duty>
+    <Prep>0</Prep>
+    <Plan>0</Plan>
+    <Res>0</Res>
+    <DutyAss>0</DutyAss>
+    <IgnoreBreak>0</IgnoreBreak>
+    <Ignore11HourRest>0</Ignore11HourRest>
+    <Note />
+    <ServiceLevelBreak>0</ServiceLevelBreak>
+    <Color>0</Color>
+    <Hidden>0</Hidden>
+  </Shift>
+  <Shift>
+    <ShiftID>M+N</ShiftID>
+    <GroupID>1</GroupID>
+    <ShiftTimes>09:00-09:15</ShiftTimes>
+    <Hours>15.25</Hours>
+    <Break>9</Break>
+    <Duty>0</Duty>
+    <Prep>0</Prep>
+    <Plan>0</Plan>
+    <Res>0</Res>
+    <DutyAss>0</DutyAss>
+    <IgnoreBreak>0</IgnoreBreak>
+    <Ignore11HourRest>0</Ignore11HourRest>
+    <Note />
+    <ServiceLevelBreak>0</ServiceLevelBreak>
+    <Color>0</Color>
+    <Hidden>0</Hidden>
+  </Shift>
+  <Shift>
+    <ShiftID>RN</ShiftID>
+    <GroupID>1</GroupID>
+    <ShiftTimes>21:00-09:15</ShiftTimes>
+    <Hours>12.25</Hours>
+    <Break>0</Break>
+    <Duty>0</Duty>
+    <Prep>0</Prep>
+    <Plan>0</Plan>
+    <Res>0</Res>
+    <DutyAss>0</DutyAss>
+    <IgnoreBreak>0</IgnoreBreak>
+    <Ignore11HourRest>0</Ignore11HourRest>
+    <Note />
+    <ServiceLevelBreak>0</ServiceLevelBreak>
+    <Color>0</Color>
+    <Hidden>0</Hidden>
+  </Shift>
+  <Shift>
+    <ShiftID>RMN</ShiftID>
+    <GroupID>1</GroupID>
+    <ShiftTimes>09:00-09:15</ShiftTimes>
+    <Hours>15.25</Hours>
+    <Break>9</Break>
+    <Duty>0</Duty>
+    <Prep>0</Prep>
+    <Plan>0</Plan>
+    <Res>0</Res>
+    <DutyAss>0</DutyAss>
+    <IgnoreBreak>0</IgnoreBreak>
+    <Ignore11HourRest>0</Ignore11HourRest>
+    <Note />
+    <ServiceLevelBreak>0</ServiceLevelBreak>
+    <Color>0</Color>
+    <Hidden>0</Hidden>
+  </Shift>
+  <Shift>
+    <ShiftID>RH</ShiftID>
+    <GroupID>1</GroupID>
+    <ShiftTimes>19:45-09:15</ShiftTimes>
+    <Hours>13.5</Hours>
+    <Break>0</Break>
+    <Duty>0</Duty>
+    <Prep>0</Prep>
+    <Plan>0</Plan>
+    <Res>0</Res>
+    <DutyAss>0</DutyAss>
+    <IgnoreBreak>0</IgnoreBreak>
+    <Ignore11HourRest>0</Ignore11HourRest>
+    <Note />
+    <ServiceLevelBreak>0</ServiceLevelBreak>
+    <Color>0</Color>
+    <Hidden>0</Hidden>
+  </Shift>
+  <Shift>
+    <ShiftID>BH</ShiftID>
+    <GroupID>1</GroupID>
+    <ShiftTimes>21:00-09:15</ShiftTimes>
+    <Hours>10.25</Hours>
+    <Break>0</Break>
+    <Duty>4</Duty>
+    <Prep>0</Prep>
+    <Plan>0</Plan>
+    <Res>0</Res>
+    <DutyAss>0</DutyAss>
+    <IgnoreBreak>1</IgnoreBreak>
+    <Ignore11HourRest>0</Ignore11HourRest>
+    <Note />
+    <ServiceLevelBreak>0</ServiceLevelBreak>
+    <Color>0</Color>
+    <Hidden>0</Hidden>
+  </Shift>
+  <Shift>
+    <ShiftID>BV</ShiftID>
+    <GroupID>1</GroupID>
+    <ShiftTimes>21:00-09:00</ShiftTimes>
+    <Hours>10</Hours>
+    <Break>0</Break>
+    <Duty>4</Duty>
+    <Prep>0</Prep>
+    <Plan>0</Plan>
+    <Res>0</Res>
+    <DutyAss>0</DutyAss>
+    <IgnoreBreak>1</IgnoreBreak>
+    <Ignore11HourRest>0</Ignore11HourRest>
+    <Note />
+    <ServiceLevelBreak>0</ServiceLevelBreak>
+    <Color>0</Color>
+    <Hidden>0</Hidden>
+  </Shift>
+  <Shift>
+    <ShiftID>D</ShiftID>
+    <GroupID>1</GroupID>
+    <ShiftTimes>08:45-16:30 </ShiftTimes>
+    <Hours>7.75</Hours>
+    <Break>0</Break>
+    <Duty>0</Duty>
+    <Prep>0</Prep>
+    <Plan>0</Plan>
+    <Res>0</Res>
+    <DutyAss>0</DutyAss>
+    <IgnoreBreak>1</IgnoreBreak>
+    <Ignore11HourRest>0</Ignore11HourRest>
+    <Note />
+    <ServiceLevelBreak>0</ServiceLevelBreak>
+    <Color>0</Color>
+    <Hidden>0</Hidden>
+  </Shift>
+  <Shift>
+    <ShiftID>DF</ShiftID>
+    <GroupID>2</GroupID>
+    <ShiftTimes>08:45-14:45</ShiftTimes>
+    <Hours>6</Hours>
+    <Break>0</Break>
+    <Duty>0</Duty>
+    <Prep>0</Prep>
+    <Plan>0</Plan>
+    <Res>0</Res>
+    <DutyAss>0</DutyAss>
+    <IgnoreBreak>1</IgnoreBreak>
+    <Ignore11HourRest>0</Ignore11HourRest>
+    <Note />
+    <ServiceLevelBreak>0</ServiceLevelBreak>
+    <Color>0</Color>
+    <Hidden>0</Hidden>
+  </Shift>
+  <Shift>
+    <ShiftID>DH</ShiftID>
+    <GroupID>1</GroupID>
+    <ShiftTimes>09:00-20:00 </ShiftTimes>
+    <Hours>11</Hours>
+    <Break>0</Break>
+    <Duty>0</Duty>
+    <Prep>0</Prep>
+    <Plan>0</Plan>
+    <Res>0</Res>
+    <DutyAss>0</DutyAss>
+    <IgnoreBreak>1</IgnoreBreak>
+    <Ignore11HourRest>0</Ignore11HourRest>
+    <Note />
+    <ServiceLevelBreak>0</ServiceLevelBreak>
+    <Color>0</Color>
+    <Hidden>0</Hidden>
+  </Shift>
+  <Shift>
+    <ShiftID>DL</ShiftID>
+    <GroupID>1</GroupID>
+    <ShiftTimes>08:15-16:00 </ShiftTimes>
+    <Hours>7.25</Hours>
+    <Break>0.5</Break>
+    <Duty>0</Duty>
+    <Prep>0</Prep>
+    <Plan>0</Plan>
+    <Res>0</Res>
+    <DutyAss>0</DutyAss>
+    <IgnoreBreak>1</IgnoreBreak>
+    <Ignore11HourRest>0</Ignore11HourRest>
+    <Note />
+    <ServiceLevelBreak>0</ServiceLevelBreak>
+    <Color>0</Color>
+    <Hidden>0</Hidden>
+  </Shift>
+  <Shift>
+    <ShiftID>E1</ShiftID>
+    <GroupID>1</GroupID>
+    <ShiftTimes>14:30-21:30 </ShiftTimes>
+    <Hours>7</Hours>
+    <Break>0</Break>
+    <Duty>0</Duty>
+    <Prep>0</Prep>
+    <Plan>0</Plan>
+    <Res>0</Res>
+    <DutyAss>0</DutyAss>
+    <IgnoreBreak>1</IgnoreBreak>
+    <Ignore11HourRest>0</Ignore11HourRest>
+    <Note />
+    <ServiceLevelBreak>0</ServiceLevelBreak>
+    <Color>0</Color>
+    <Hidden>0</Hidden>
+  </Shift>
+  <Shift>
+    <ShiftID>E3</ShiftID>
+    <GroupID>1</GroupID>
+    <ShiftTimes>13:30-21:30 </ShiftTimes>
+    <Hours>8</Hours>
+    <Break>0</Break>
+    <Duty>0</Duty>
+    <Prep>0</Prep>
+    <Plan>0</Plan>
+    <Res>0</Res>
+    <DutyAss>0</DutyAss>
+    <IgnoreBreak>1</IgnoreBreak>
+    <Ignore11HourRest>0</Ignore11HourRest>
+    <Note />
+    <ServiceLevelBreak>0</ServiceLevelBreak>
+    <Color>0</Color>
+    <Hidden>0</Hidden>
+  </Shift>
+  <Shift>
+    <ShiftID>EM</ShiftID>
+    <GroupID>1</GroupID>
+    <ShiftTimes>09:00-21:30 </ShiftTimes>
+    <Hours>11.5</Hours>
+    <Break>1</Break>
+    <Duty>0</Duty>
+    <Prep>0</Prep>
+    <Plan>0</Plan>
+    <Res>0</Res>
+    <DutyAss>0</DutyAss>
+    <IgnoreBreak>0</IgnoreBreak>
+    <Ignore11HourRest>0</Ignore11HourRest>
+    <Note />
+    <ServiceLevelBreak>0</ServiceLevelBreak>
+    <Color>0</Color>
+    <Hidden>0</Hidden>
+  </Shift>
+  <Shift>
+    <ShiftID>MÖ</ShiftID>
+    <GroupID>1</GroupID>
+    <ShiftTimes>09:00-12:00</ShiftTimes>
+    <Hours>3</Hours>
+    <Break>0</Break>
+    <Duty>0</Duty>
+    <Prep>0</Prep>
+    <Plan>0</Plan>
+    <Res>0</Res>
+    <DutyAss>0</DutyAss>
+    <IgnoreBreak>0</IgnoreBreak>
+    <Ignore11HourRest>0</Ignore11HourRest>
+    <Note />
+    <ServiceLevelBreak>0</ServiceLevelBreak>
+    <Color>0</Color>
+    <Hidden>0</Hidden>
+  </Shift>
+  <Shift>
+    <ShiftID>M</ShiftID>
+    <GroupID>1</GroupID>
+    <ShiftTimes>09:00-16:00</ShiftTimes>
+    <Hours>6.5</Hours>
+    <Break>0.5</Break>
+    <Duty>0</Duty>
+    <Prep>0</Prep>
+    <Plan>0</Plan>
+    <Res>0</Res>
+    <DutyAss>0</DutyAss>
+    <IgnoreBreak>0</IgnoreBreak>
+    <Ignore11HourRest>0</Ignore11HourRest>
+    <Note />
+    <ServiceLevelBreak>0</ServiceLevelBreak>
+    <Color>0</Color>
+    <Hidden>0</Hidden>
+  </Shift>
+  <Shift>
+    <ShiftID>DH6</ShiftID>
+    <GroupID>1</GroupID>
+    <ShiftTimes>09:00-18:00</ShiftTimes>
+    <Hours>9</Hours>
+    <Break>0</Break>
+    <Duty>0</Duty>
+    <Prep>0</Prep>
+    <Plan>0</Plan>
+    <Res>0</Res>
+    <DutyAss>0</DutyAss>
+    <IgnoreBreak>0</IgnoreBreak>
+    <Ignore11HourRest>0</Ignore11HourRest>
+    <Note />
+    <ServiceLevelBreak>0</ServiceLevelBreak>
+    <Color>0</Color>
+    <Hidden>0</Hidden>
+  </Shift>
+  <Shift>
+    <ShiftID>MÖ2</ShiftID>
+    <GroupID>1</GroupID>
+    <ShiftTimes>09:00-14:00</ShiftTimes>
+    <Hours>5</Hours>
+    <Break>0</Break>
+    <Duty>0</Duty>
+    <Prep>0</Prep>
+    <Plan>0</Plan>
+    <Res>0</Res>
+    <DutyAss>0</DutyAss>
+    <IgnoreBreak>0</IgnoreBreak>
+    <Ignore11HourRest>0</Ignore11HourRest>
+    <Note />
+    <ServiceLevelBreak>0</ServiceLevelBreak>
+    <Color>0</Color>
+    <Hidden>0</Hidden>
+  </Shift>
+  <Shift>
+    <ShiftID>N2</ShiftID>
+    <GroupID>1</GroupID>
+    <ShiftTimes>21:00-09:00</ShiftTimes>
+    <Hours>12</Hours>
+    <Break>0</Break>
+    <Duty>0</Duty>
+    <Prep>0</Prep>
+    <Plan>0</Plan>
+    <Res>0</Res>
+    <DutyAss>0</DutyAss>
+    <IgnoreBreak>0</IgnoreBreak>
+    <Ignore11HourRest>0</Ignore11HourRest>
+    <Note />
+    <ServiceLevelBreak>0</ServiceLevelBreak>
+    <Color>0</Color>
+    <Hidden>0</Hidden>
+  </Shift>
+  <ShiftTime>
+    <ShiftID>RMN</ShiftID>
+    <TimeType>0</TimeType>
+    <StartTime>09:00</StartTime>
+    <EndTime>12:00</EndTime>
+    <Hours>3</Hours>
+    <NextDay>0</NextDay>
+    <Note />
+    <PercentOfHours>100</PercentOfHours>
+    <PercentOfUW>100</PercentOfUW>
+    <PercentOfDuty>0</PercentOfDuty>
+    <PercentOfPrep>0</PercentOfPrep>
+    <ServiceLevelHours>3</ServiceLevelHours>
+    <SalaryForm>0</SalaryForm>
+  </ShiftTime>
+  <ShiftTime>
+    <ShiftID>M+N</ShiftID>
+    <TimeType>0</TimeType>
+    <StartTime>09:00</StartTime>
+    <EndTime>12:00</EndTime>
+    <Hours>3</Hours>
+    <NextDay>0</NextDay>
+    <Note />
+    <PercentOfHours>100</PercentOfHours>
+    <PercentOfUW>100</PercentOfUW>
+    <PercentOfDuty>0</PercentOfDuty>
+    <PercentOfPrep>0</PercentOfPrep>
+    <ServiceLevelHours>3</ServiceLevelHours>
+    <SalaryForm>0</SalaryForm>
+  </ShiftTime>
+  <ShiftTime>
+    <ShiftID>BH</ShiftID>
+    <TimeType>1</TimeType>
+    <StartTime>02:00</StartTime>
+    <EndTime>06:00</EndTime>
+    <Hours>4</Hours>
+    <NextDay>2</NextDay>
+    <Note />
+    <PercentOfHours>50</PercentOfHours>
+    <PercentOfUW>0</PercentOfUW>
+    <PercentOfDuty>100</PercentOfDuty>
+    <PercentOfPrep>0</PercentOfPrep>
+    <ServiceLevelHours>2</ServiceLevelHours>
+    <SalaryForm>0</SalaryForm>
+  </ShiftTime>
+  <ShiftTime>
+    <ShiftID>BH</ShiftID>
+    <TimeType>0</TimeType>
+    <StartTime>06:00</StartTime>
+    <EndTime>09:15</EndTime>
+    <Hours>3.25</Hours>
+    <NextDay>2</NextDay>
+    <Note />
+    <PercentOfHours>100</PercentOfHours>
+    <PercentOfUW>100</PercentOfUW>
+    <PercentOfDuty>0</PercentOfDuty>
+    <PercentOfPrep>0</PercentOfPrep>
+    <ServiceLevelHours>3.25</ServiceLevelHours>
+    <SalaryForm>0</SalaryForm>
+  </ShiftTime>
+  <ShiftTime>
+    <ShiftID>BV</ShiftID>
+    <TimeType>0</TimeType>
+    <StartTime>21:00</StartTime>
+    <EndTime>02:00</EndTime>
+    <Hours>5</Hours>
+    <NextDay>1</NextDay>
+    <Note />
+    <PercentOfHours>100</PercentOfHours>
+    <PercentOfUW>100</PercentOfUW>
+    <PercentOfDuty>0</PercentOfDuty>
+    <PercentOfPrep>0</PercentOfPrep>
+    <ServiceLevelHours>5</ServiceLevelHours>
+    <SalaryForm>0</SalaryForm>
+  </ShiftTime>
+  <ShiftTime>
+    <ShiftID>BV</ShiftID>
+    <TimeType>1</TimeType>
+    <StartTime>02:00</StartTime>
+    <EndTime>06:00</EndTime>
+    <Hours>4</Hours>
+    <NextDay>2</NextDay>
+    <Note />
+    <PercentOfHours>50</PercentOfHours>
+    <PercentOfUW>0</PercentOfUW>
+    <PercentOfDuty>100</PercentOfDuty>
+    <PercentOfPrep>0</PercentOfPrep>
+    <ServiceLevelHours>2</ServiceLevelHours>
+    <SalaryForm>0</SalaryForm>
+  </ShiftTime>
+  <ShiftTime>
+    <ShiftID>BV</ShiftID>
+    <TimeType>0</TimeType>
+    <StartTime>06:00</StartTime>
+    <EndTime>09:00</EndTime>
+    <Hours>3</Hours>
+    <NextDay>2</NextDay>
+    <Note />
+    <PercentOfHours>100</PercentOfHours>
+    <PercentOfUW>100</PercentOfUW>
+    <PercentOfDuty>0</PercentOfDuty>
+    <PercentOfPrep>0</PercentOfPrep>
+    <ServiceLevelHours>3</ServiceLevelHours>
+    <SalaryForm>0</SalaryForm>
+  </ShiftTime>
+  <ShiftTime>
+    <ShiftID>D</ShiftID>
+    <TimeType>0</TimeType>
+    <StartTime>08:45</StartTime>
+    <EndTime>16:30</EndTime>
+    <Hours>7.75</Hours>
+    <NextDay>0</NextDay>
+    <Note />
+    <PercentOfHours>100</PercentOfHours>
+    <PercentOfUW>100</PercentOfUW>
+    <PercentOfDuty>0</PercentOfDuty>
+    <PercentOfPrep>0</PercentOfPrep>
+    <ServiceLevelHours>7.75</ServiceLevelHours>
+    <SalaryForm>0</SalaryForm>
+  </ShiftTime>
+  <ShiftTime>
+    <ShiftID>DF</ShiftID>
+    <TimeType>0</TimeType>
+    <StartTime>08:45</StartTime>
+    <EndTime>14:45</EndTime>
+    <Hours>6</Hours>
+    <NextDay>0</NextDay>
+    <Note />
+    <PercentOfHours>100</PercentOfHours>
+    <PercentOfUW>100</PercentOfUW>
+    <PercentOfDuty>0</PercentOfDuty>
+    <PercentOfPrep>0</PercentOfPrep>
+    <ServiceLevelHours>6</ServiceLevelHours>
+    <SalaryForm>0</SalaryForm>
+  </ShiftTime>
+  <ShiftTime>
+    <ShiftID>DH</ShiftID>
+    <TimeType>0</TimeType>
+    <StartTime>09:00</StartTime>
+    <EndTime>20:00</EndTime>
+    <Hours>11</Hours>
+    <NextDay>0</NextDay>
+    <Note />
+    <PercentOfHours>100</PercentOfHours>
+    <PercentOfUW>100</PercentOfUW>
+    <PercentOfDuty>0</PercentOfDuty>
+    <PercentOfPrep>0</PercentOfPrep>
+    <ServiceLevelHours>11</ServiceLevelHours>
+    <SalaryForm>0</SalaryForm>
+  </ShiftTime>
+  <ShiftTime>
+    <ShiftID>DL</ShiftID>
+    <TimeType>0</TimeType>
+    <StartTime>08:15</StartTime>
+    <EndTime>12:00</EndTime>
+    <Hours>3.75</Hours>
+    <NextDay>0</NextDay>
+    <Note />
+    <PercentOfHours>100</PercentOfHours>
+    <PercentOfUW>100</PercentOfUW>
+    <PercentOfDuty>0</PercentOfDuty>
+    <PercentOfPrep>0</PercentOfPrep>
+    <ServiceLevelHours>3.75</ServiceLevelHours>
+    <SalaryForm>0</SalaryForm>
+  </ShiftTime>
+  <ShiftTime>
+    <ShiftID>DL</ShiftID>
+    <TimeType>0</TimeType>
+    <StartTime>12:30</StartTime>
+    <EndTime>16:00</EndTime>
+    <Hours>3.5</Hours>
+    <NextDay>0</NextDay>
+    <Note />
+    <PercentOfHours>100</PercentOfHours>
+    <PercentOfUW>100</PercentOfUW>
+    <PercentOfDuty>0</PercentOfDuty>
+    <PercentOfPrep>0</PercentOfPrep>
+    <ServiceLevelHours>3.5</ServiceLevelHours>
+    <SalaryForm>0</SalaryForm>
+  </ShiftTime>
+  <ShiftTime>
+    <ShiftID>E1</ShiftID>
+    <TimeType>0</TimeType>
+    <StartTime>14:30</StartTime>
+    <EndTime>21:30</EndTime>
+    <Hours>7</Hours>
+    <NextDay>0</NextDay>
+    <Note />
+    <PercentOfHours>100</PercentOfHours>
+    <PercentOfUW>100</PercentOfUW>
+    <PercentOfDuty>0</PercentOfDuty>
+    <PercentOfPrep>0</PercentOfPrep>
+    <ServiceLevelHours>7</ServiceLevelHours>
+    <SalaryForm>0</SalaryForm>
+  </ShiftTime>
+  <ShiftTime>
+    <ShiftID>E3</ShiftID>
+    <TimeType>0</TimeType>
+    <StartTime>13:30</StartTime>
+    <EndTime>21:30</EndTime>
+    <Hours>8</Hours>
+    <NextDay>0</NextDay>
+    <Note />
+    <PercentOfHours>100</PercentOfHours>
+    <PercentOfUW>100</PercentOfUW>
+    <PercentOfDuty>0</PercentOfDuty>
+    <PercentOfPrep>0</PercentOfPrep>
+    <ServiceLevelHours>8</ServiceLevelHours>
+    <SalaryForm>0</SalaryForm>
+  </ShiftTime>
+  <ShiftTime>
+    <ShiftID>EM</ShiftID>
+    <TimeType>0</TimeType>
+    <StartTime>09:00</StartTime>
+    <EndTime>12:00</EndTime>
+    <Hours>3</Hours>
+    <NextDay>0</NextDay>
+    <Note />
+    <PercentOfHours>100</PercentOfHours>
+    <PercentOfUW>100</PercentOfUW>
+    <PercentOfDuty>0</PercentOfDuty>
+    <PercentOfPrep>0</PercentOfPrep>
+    <ServiceLevelHours>3</ServiceLevelHours>
+    <SalaryForm>0</SalaryForm>
+  </ShiftTime>
+  <ShiftTime>
+    <ShiftID>EM</ShiftID>
+    <TimeType>0</TimeType>
+    <StartTime>13:00</StartTime>
+    <EndTime>21:30</EndTime>
+    <Hours>8.5</Hours>
+    <NextDay>0</NextDay>
+    <Note />
+    <PercentOfHours>100</PercentOfHours>
+    <PercentOfUW>100</PercentOfUW>
+    <PercentOfDuty>0</PercentOfDuty>
+    <PercentOfPrep>0</PercentOfPrep>
+    <ServiceLevelHours>8.5</ServiceLevelHours>
+    <SalaryForm>0</SalaryForm>
+  </ShiftTime>
+  <ShiftTime>
+    <ShiftID>MÖ</ShiftID>
+    <TimeType>0</TimeType>
+    <StartTime>09:00</StartTime>
+    <EndTime>12:00</EndTime>
+    <Hours>3</Hours>
+    <NextDay>0</NextDay>
+    <Note />
+    <PercentOfHours>100</PercentOfHours>
+    <PercentOfUW>100</PercentOfUW>
+    <PercentOfDuty>0</PercentOfDuty>
+    <PercentOfPrep>0</PercentOfPrep>
+    <ServiceLevelHours>3</ServiceLevelHours>
+    <SalaryForm>0</SalaryForm>
+  </ShiftTime>
+  <ShiftTime>
+    <ShiftID>M</ShiftID>
+    <TimeType>0</TimeType>
+    <StartTime>09:00</StartTime>
+    <EndTime>12:00</EndTime>
+    <Hours>3</Hours>
+    <NextDay>0</NextDay>
+    <Note />
+    <PercentOfHours>100</PercentOfHours>
+    <PercentOfUW>100</PercentOfUW>
+    <PercentOfDuty>0</PercentOfDuty>
+    <PercentOfPrep>0</PercentOfPrep>
+    <ServiceLevelHours>3</ServiceLevelHours>
+    <SalaryForm>0</SalaryForm>
+  </ShiftTime>
+  <ShiftTime>
+    <ShiftID>M</ShiftID>
+    <TimeType>0</TimeType>
+    <StartTime>12:30</StartTime>
+    <EndTime>16:00</EndTime>
+    <Hours>3.5</Hours>
+    <NextDay>0</NextDay>
+    <Note />
+    <PercentOfHours>100</PercentOfHours>
+    <PercentOfUW>100</PercentOfUW>
+    <PercentOfDuty>0</PercentOfDuty>
+    <PercentOfPrep>0</PercentOfPrep>
+    <ServiceLevelHours>3.5</ServiceLevelHours>
+    <SalaryForm>0</SalaryForm>
+  </ShiftTime>
+  <ShiftTime>
+    <ShiftID>DH6</ShiftID>
+    <TimeType>0</TimeType>
+    <StartTime>09:00</StartTime>
+    <EndTime>18:00</EndTime>
+    <Hours>9</Hours>
+    <NextDay>0</NextDay>
+    <Note />
+    <PercentOfHours>100</PercentOfHours>
+    <PercentOfUW>100</PercentOfUW>
+    <PercentOfDuty>0</PercentOfDuty>
+    <PercentOfPrep>0</PercentOfPrep>
+    <ServiceLevelHours>9</ServiceLevelHours>
+    <SalaryForm>0</SalaryForm>
+  </ShiftTime>
+  <ShiftTime>
+    <ShiftID>RH</ShiftID>
+    <TimeType>0</TimeType>
+    <StartTime>19:45</StartTime>
+    <EndTime>09:15</EndTime>
+    <Hours>13.5</Hours>
+    <NextDay>1</NextDay>
+    <Note />
+    <PercentOfHours>100</PercentOfHours>
+    <PercentOfUW>100</PercentOfUW>
+    <PercentOfDuty>0</PercentOfDuty>
+    <PercentOfPrep>0</PercentOfPrep>
+    <ServiceLevelHours>13.5</ServiceLevelHours>
+    <SalaryForm>0</SalaryForm>
+  </ShiftTime>
+  <ShiftTime>
+    <ShiftID>MÖ2</ShiftID>
+    <TimeType>0</TimeType>
+    <StartTime>09:00</StartTime>
+    <EndTime>14:00</EndTime>
+    <Hours>5</Hours>
+    <NextDay>0</NextDay>
+    <Note />
+    <PercentOfHours>100</PercentOfHours>
+    <PercentOfUW>100</PercentOfUW>
+    <PercentOfDuty>0</PercentOfDuty>
+    <PercentOfPrep>0</PercentOfPrep>
+    <ServiceLevelHours>5</ServiceLevelHours>
+    <SalaryForm>0</SalaryForm>
+  </ShiftTime>
+  <ShiftTime>
+    <ShiftID>BH</ShiftID>
+    <TimeType>0</TimeType>
+    <StartTime>21:00</StartTime>
+    <EndTime>02:00</EndTime>
+    <Hours>5</Hours>
+    <NextDay>1</NextDay>
+    <Note />
+    <PercentOfHours>100</PercentOfHours>
+    <PercentOfUW>100</PercentOfUW>
+    <PercentOfDuty>0</PercentOfDuty>
+    <PercentOfPrep>0</PercentOfPrep>
+    <ServiceLevelHours>5</ServiceLevelHours>
+    <SalaryForm>0</SalaryForm>
+  </ShiftTime>
+  <ShiftTime>
+    <ShiftID>N</ShiftID>
+    <TimeType>0</TimeType>
+    <StartTime>21:00</StartTime>
+    <EndTime>09:15</EndTime>
+    <Hours>12.25</Hours>
+    <NextDay>1</NextDay>
+    <Note />
+    <PercentOfHours>100</PercentOfHours>
+    <PercentOfUW>100</PercentOfUW>
+    <PercentOfDuty>0</PercentOfDuty>
+    <PercentOfPrep>0</PercentOfPrep>
+    <ServiceLevelHours>12.25</ServiceLevelHours>
+    <SalaryForm>0</SalaryForm>
+  </ShiftTime>
+  <ShiftTime>
+    <ShiftID>N2</ShiftID>
+    <TimeType>0</TimeType>
+    <StartTime>21:00</StartTime>
+    <EndTime>09:00</EndTime>
+    <Hours>12</Hours>
+    <NextDay>1</NextDay>
+    <Note />
+    <PercentOfHours>100</PercentOfHours>
+    <PercentOfUW>100</PercentOfUW>
+    <PercentOfDuty>0</PercentOfDuty>
+    <PercentOfPrep>0</PercentOfPrep>
+    <ServiceLevelHours>12</ServiceLevelHours>
+    <SalaryForm>0</SalaryForm>
+  </ShiftTime>
+  <ShiftTime>
+    <ShiftID>M+N</ShiftID>
+    <TimeType>0</TimeType>
+    <StartTime>21:00</StartTime>
+    <EndTime>09:15</EndTime>
+    <Hours>12.25</Hours>
+    <NextDay>1</NextDay>
+    <Note />
+    <PercentOfHours>100</PercentOfHours>
+    <PercentOfUW>100</PercentOfUW>
+    <PercentOfDuty>0</PercentOfDuty>
+    <PercentOfPrep>0</PercentOfPrep>
+    <ServiceLevelHours>12.25</ServiceLevelHours>
+    <SalaryForm>0</SalaryForm>
+  </ShiftTime>
+  <ShiftTime>
+    <ShiftID>HN</ShiftID>
+    <TimeType>0</TimeType>
+    <StartTime>17:45</StartTime>
+    <EndTime>09:15</EndTime>
+    <Hours>15.5</Hours>
+    <NextDay>1</NextDay>
+    <Note />
+    <PercentOfHours>100</PercentOfHours>
+    <PercentOfUW>100</PercentOfUW>
+    <PercentOfDuty>0</PercentOfDuty>
+    <PercentOfPrep>0</PercentOfPrep>
+    <ServiceLevelHours>15.5</ServiceLevelHours>
+    <SalaryForm>0</SalaryForm>
+  </ShiftTime>
+  <ShiftTime>
+    <ShiftID>RMN</ShiftID>
+    <TimeType>0</TimeType>
+    <StartTime>21:00</StartTime>
+    <EndTime>09:15</EndTime>
+    <Hours>12.25</Hours>
+    <NextDay>1</NextDay>
+    <Note />
+    <PercentOfHours>100</PercentOfHours>
+    <PercentOfUW>100</PercentOfUW>
+    <PercentOfDuty>0</PercentOfDuty>
+    <PercentOfPrep>0</PercentOfPrep>
+    <ServiceLevelHours>12.25</ServiceLevelHours>
+    <SalaryForm>0</SalaryForm>
+  </ShiftTime>
+  <ShiftTime>
+    <ShiftID>RN</ShiftID>
+    <TimeType>0</TimeType>
+    <StartTime>21:00</StartTime>
+    <EndTime>09:15</EndTime>
+    <Hours>12.25</Hours>
+    <NextDay>1</NextDay>
+    <Note />
+    <PercentOfHours>100</PercentOfHours>
+    <PercentOfUW>100</PercentOfUW>
+    <PercentOfDuty>0</PercentOfDuty>
+    <PercentOfPrep>0</PercentOfPrep>
+    <ServiceLevelHours>12.25</ServiceLevelHours>
+    <SalaryForm>0</SalaryForm>
+  </ShiftTime>
+  <Employees>
+    <Row>6</Row>
+    <EmployeeNumber>1060</EmployeeNumber>
+    <PersonalID>780305-1060</PersonalID>
+    <Name>Åsa Jansson</Name>
+    <Initial />
+    <Address />
+    <Zipcode />
+    <City />
+    <Phone />
+    <CellPhone />
+    <Email />
+    <Note />
+    <FullTimeRef>37</FullTimeRef>
+    <TypeOfSalary>0</TypeOfSalary>
+    <MonthlySalarySek>24800</MonthlySalarySek>
+    <HourlySalarySek>0</HourlySalarySek>
+    <TypeOfDuty>0</TypeOfDuty>
+    <HolidayDaysByContract>25</HolidayDaysByContract>
+    <DayLimit>00:00</DayLimit>
+    <WeekDayLimit>1</WeekDayLimit>
+    <ServiceLevel>1</ServiceLevel>
+    <Color>2</Color>
+    <CalcDutyAndUWTime>2</CalcDutyAndUWTime>
+    <TimeBalance>0</TimeBalance>
+    <SocialSecurityPercent>31.42</SocialSecurityPercent>
+    <Competence />
+  </Employees>
+  <Employees>
+    <Row>4</Row>
+    <EmployeeNumber>1040</EmployeeNumber>
+    <PersonalID>690515-1040</PersonalID>
+    <Name>Olle Gustavsson</Name>
+    <Initial />
+    <Address />
+    <Zipcode />
+    <City />
+    <Phone />
+    <CellPhone />
+    <Email />
+    <Note />
+    <FullTimeRef>40</FullTimeRef>
+    <TypeOfSalary>1</TypeOfSalary>
+    <MonthlySalarySek>0</MonthlySalarySek>
+    <HourlySalarySek>150</HourlySalarySek>
+    <TypeOfDuty>0</TypeOfDuty>
+    <HolidayDaysByContract>25</HolidayDaysByContract>
+    <DayLimit>00:00</DayLimit>
+    <WeekDayLimit>1</WeekDayLimit>
+    <ServiceLevel>0.8</ServiceLevel>
+    <Color>11</Color>
+    <CalcDutyAndUWTime>2</CalcDutyAndUWTime>
+    <TimeBalance>0</TimeBalance>
+    <SocialSecurityPercent>31.42</SocialSecurityPercent>
+    <Competence />
+  </Employees>
+  <Employees>
+    <Row>5</Row>
+    <EmployeeNumber>1050</EmployeeNumber>
+    <PersonalID>720102-1050</PersonalID>
+    <Name>Anders Karlsson</Name>
+    <Initial />
+    <Address />
+    <Zipcode />
+    <City />
+    <Phone />
+    <CellPhone />
+    <Email />
+    <Note />
+    <FullTimeRef>37</FullTimeRef>
+    <TypeOfSalary>0</TypeOfSalary>
+    <MonthlySalarySek>23200</MonthlySalarySek>
+    <HourlySalarySek>0</HourlySalarySek>
+    <TypeOfDuty>0</TypeOfDuty>
+    <HolidayDaysByContract>25</HolidayDaysByContract>
+    <DayLimit>00:00</DayLimit>
+    <WeekDayLimit>1</WeekDayLimit>
+    <ServiceLevel>1</ServiceLevel>
+    <Color>5</Color>
+    <CalcDutyAndUWTime>2</CalcDutyAndUWTime>
+    <TimeBalance>0</TimeBalance>
+    <SocialSecurityPercent>31.42</SocialSecurityPercent>
+    <Competence />
+  </Employees>
+  <Employees>
+    <Row>1</Row>
+    <EmployeeNumber>1010</EmployeeNumber>
+    <PersonalID>630805-1010</PersonalID>
+    <Name>Eva Andersson</Name>
+    <Initial />
+    <Address />
+    <Zipcode />
+    <City />
+    <Phone />
+    <CellPhone />
+    <Email />
+    <Note />
+    <FullTimeRef>37</FullTimeRef>
+    <TypeOfSalary>0</TypeOfSalary>
+    <MonthlySalarySek>21500</MonthlySalarySek>
+    <HourlySalarySek>0</HourlySalarySek>
+    <TypeOfDuty>0</TypeOfDuty>
+    <HolidayDaysByContract>25</HolidayDaysByContract>
+    <DayLimit>04:00</DayLimit>
+    <WeekDayLimit>1</WeekDayLimit>
+    <ServiceLevel>1</ServiceLevel>
+    <Color>6</Color>
+    <CalcDutyAndUWTime>1</CalcDutyAndUWTime>
+    <TimeBalance>0</TimeBalance>
+    <SocialSecurityPercent>31.42</SocialSecurityPercent>
+    <Competence />
+  </Employees>
+  <Employees>
+    <Row>8</Row>
+    <EmployeeNumber>1080</EmployeeNumber>
+    <PersonalID>831102-1080</PersonalID>
+    <Name>Peter Ohlsson</Name>
+    <Initial />
+    <Address />
+    <Zipcode />
+    <City />
+    <Phone />
+    <CellPhone />
+    <Email />
+    <Note />
+    <FullTimeRef>37</FullTimeRef>
+    <TypeOfSalary>0</TypeOfSalary>
+    <MonthlySalarySek>26500</MonthlySalarySek>
+    <HourlySalarySek>0</HourlySalarySek>
+    <TypeOfDuty>0</TypeOfDuty>
+    <HolidayDaysByContract>25</HolidayDaysByContract>
+    <DayLimit>00:00</DayLimit>
+    <WeekDayLimit>1</WeekDayLimit>
+    <ServiceLevel>1</ServiceLevel>
+    <Color>1</Color>
+    <CalcDutyAndUWTime>2</CalcDutyAndUWTime>
+    <TimeBalance>0</TimeBalance>
+    <SocialSecurityPercent>31.42</SocialSecurityPercent>
+    <Competence />
+  </Employees>
+  <Employees>
+    <Row>9</Row>
+    <EmployeeNumber>1090</EmployeeNumber>
+    <PersonalID>720111-1090</PersonalID>
+    <Name>Ulla Svensson</Name>
+    <Initial />
+    <Address />
+    <Zipcode />
+    <City />
+    <Phone />
+    <CellPhone />
+    <Email />
+    <Note />
+    <FullTimeRef>37</FullTimeRef>
+    <TypeOfSalary>0</TypeOfSalary>
+    <MonthlySalarySek>23000</MonthlySalarySek>
+    <HourlySalarySek>0</HourlySalarySek>
+    <TypeOfDuty>0</TypeOfDuty>
+    <HolidayDaysByContract>25</HolidayDaysByContract>
+    <DayLimit>00:00</DayLimit>
+    <WeekDayLimit>1</WeekDayLimit>
+    <ServiceLevel>1</ServiceLevel>
+    <Color>2</Color>
+    <CalcDutyAndUWTime>1</CalcDutyAndUWTime>
+    <TimeBalance>0</TimeBalance>
+    <SocialSecurityPercent>31.42</SocialSecurityPercent>
+    <Competence />
+  </Employees>
+  <Employees>
+    <Row>3</Row>
+    <EmployeeNumber>1030</EmployeeNumber>
+    <PersonalID>660201-1030</PersonalID>
+    <Name>Roland Gran</Name>
+    <Initial>RG</Initial>
+    <Address />
+    <Zipcode />
+    <City />
+    <Phone />
+    <CellPhone />
+    <Email />
+    <Note />
+    <FullTimeRef>37</FullTimeRef>
+    <TypeOfSalary>1</TypeOfSalary>
+    <MonthlySalarySek>0</MonthlySalarySek>
+    <HourlySalarySek>150</HourlySalarySek>
+    <TypeOfDuty>0</TypeOfDuty>
+    <HolidayDaysByContract>25</HolidayDaysByContract>
+    <DayLimit>00:00</DayLimit>
+    <WeekDayLimit>1</WeekDayLimit>
+    <ServiceLevel>1</ServiceLevel>
+    <Color>3</Color>
+    <CalcDutyAndUWTime>1</CalcDutyAndUWTime>
+    <TimeBalance>0</TimeBalance>
+    <SocialSecurityPercent>31.42</SocialSecurityPercent>
+    <Competence />
+  </Employees>
+  <Employees>
+    <Row>2</Row>
+    <EmployeeNumber>1020</EmployeeNumber>
+    <PersonalID>680302-1020</PersonalID>
+    <Name>Yngve Ask</Name>
+    <Initial>YA</Initial>
+    <Address />
+    <Zipcode />
+    <City />
+    <Phone />
+    <CellPhone />
+    <Email />
+    <Note />
+    <FullTimeRef>37</FullTimeRef>
+    <TypeOfSalary>0</TypeOfSalary>
+    <MonthlySalarySek>23600</MonthlySalarySek>
+    <HourlySalarySek>0</HourlySalarySek>
+    <TypeOfDuty>0</TypeOfDuty>
+    <HolidayDaysByContract>25</HolidayDaysByContract>
+    <DayLimit>00:00</DayLimit>
+    <WeekDayLimit>1</WeekDayLimit>
+    <ServiceLevel>1</ServiceLevel>
+    <Color>9</Color>
+    <CalcDutyAndUWTime>2</CalcDutyAndUWTime>
+    <TimeBalance>0</TimeBalance>
+    <SocialSecurityPercent>31.42</SocialSecurityPercent>
+    <Competence />
+  </Employees>
+  <Employees>
+    <Row>7</Row>
+    <EmployeeNumber>1070</EmployeeNumber>
+    <PersonalID>610307-1070</PersonalID>
+    <Name>Lisa Lind</Name>
+    <Initial />
+    <Address />
+    <Zipcode />
+    <City />
+    <Phone />
+    <CellPhone />
+    <Email />
+    <Note />
+    <FullTimeRef>37</FullTimeRef>
+    <TypeOfSalary>0</TypeOfSalary>
+    <MonthlySalarySek>20900</MonthlySalarySek>
+    <HourlySalarySek>0</HourlySalarySek>
+    <TypeOfDuty>0</TypeOfDuty>
+    <HolidayDaysByContract>25</HolidayDaysByContract>
+    <DayLimit>00:00</DayLimit>
+    <WeekDayLimit>1</WeekDayLimit>
+    <ServiceLevel>1</ServiceLevel>
+    <Color>10</Color>
+    <CalcDutyAndUWTime>2</CalcDutyAndUWTime>
+    <TimeBalance>0</TimeBalance>
+    <SocialSecurityPercent>31.42</SocialSecurityPercent>
+    <Competence />
+  </Employees>
+  <ShiftGroups>
+    <GroupID>1</GroupID>
+    <GroupName>Grupp 1</GroupName>
+    <GroupDescription>Grupp 1</GroupDescription>
+  </ShiftGroups>
+  <ShiftGroups>
+    <GroupID>2</GroupID>
+    <GroupName>Grupp 2</GroupName>
+    <GroupDescription>Grupp 2</GroupDescription>
+  </ShiftGroups>
+  <ShiftGroups>
+    <GroupID>3</GroupID>
+    <GroupName>Grupp 3</GroupName>
+    <GroupDescription>Grupp 3</GroupDescription>
+  </ShiftGroups>
+  <ShiftGroups>
+    <GroupID>4</GroupID>
+    <GroupName>Grupp 4</GroupName>
+    <GroupDescription>Grupp 4</GroupDescription>
+  </ShiftGroups>
+  <ShiftGroups>
+    <GroupID>5</GroupID>
+    <GroupName>Grupp 5</GroupName>
+    <GroupDescription>Grupp 5</GroupDescription>
+  </ShiftGroups>
+  <ShiftGroups>
+    <GroupID>6</GroupID>
+    <GroupName>Grupp 6</GroupName>
+    <GroupDescription>Grupp 6</GroupDescription>
+  </ShiftGroups>
+  <ShiftGroups>
+    <GroupID>7</GroupID>
+    <GroupName>Grupp 7</GroupName>
+    <GroupDescription>Grupp 7</GroupDescription>
+  </ShiftGroups>
+  <ShiftGroups>
+    <GroupID>8</GroupID>
+    <GroupName>Grupp 8</GroupName>
+    <GroupDescription>Grupp 8</GroupDescription>
+  </ShiftGroups>
+  <ShiftGroups>
+    <GroupID>9</GroupID>
+    <GroupName>Grupp 9</GroupName>
+    <GroupDescription>Grupp 9</GroupDescription>
+  </ShiftGroups>
+  <ShiftGroups>
+    <GroupID>10</GroupID>
+    <GroupName>Grupp 10</GroupName>
+    <GroupDescription>Grupp 10</GroupDescription>
+  </ShiftGroups>
+  <ShiftGroups>
+    <GroupID>11</GroupID>
+    <GroupName>Grupp 11</GroupName>
+    <GroupDescription />
+  </ShiftGroups>
+  <ShiftGroups>
+    <GroupID>12</GroupID>
+    <GroupName>Grupp 12</GroupName>
+    <GroupDescription />
+  </ShiftGroups>
+  <ShiftGroups>
+    <GroupID>13</GroupID>
+    <GroupName>Grupp 13</GroupName>
+    <GroupDescription />
+  </ShiftGroups>
+  <ShiftGroups>
+    <GroupID>14</GroupID>
+    <GroupName>Grupp 14</GroupName>
+    <GroupDescription />
+  </ShiftGroups>
+  <ShiftGroups>
+    <GroupID>15</GroupID>
+    <GroupName>Grupp 15</GroupName>
+    <GroupDescription />
+  </ShiftGroups>
+  <ShiftGroups>
+    <GroupID>16</GroupID>
+    <GroupName>Grupp 16</GroupName>
+    <GroupDescription />
+  </ShiftGroups>
+  <ShiftGroups>
+    <GroupID>17</GroupID>
+    <GroupName>Grupp 17</GroupName>
+    <GroupDescription />
+  </ShiftGroups>
+  <ShiftGroups>
+    <GroupID>18</GroupID>
+    <GroupName>Grupp 18</GroupName>
+    <GroupDescription />
+  </ShiftGroups>
+  <ShiftGroups>
+    <GroupID>19</GroupID>
+    <GroupName>Grupp 19</GroupName>
+    <GroupDescription />
+  </ShiftGroups>
+  <ShiftGroups>
+    <GroupID>20</GroupID>
+    <GroupName>Grupp 20</GroupName>
+    <GroupDescription />
+  </ShiftGroups>
+  <ShiftGroups>
+    <GroupID>21</GroupID>
+    <GroupName>Grupp 21</GroupName>
+    <GroupDescription />
+  </ShiftGroups>
+  <ShiftGroups>
+    <GroupID>22</GroupID>
+    <GroupName>Grupp 22</GroupName>
+    <GroupDescription />
+  </ShiftGroups>
+  <ShiftGroups>
+    <GroupID>23</GroupID>
+    <GroupName>Grupp 23</GroupName>
+    <GroupDescription />
+  </ShiftGroups>
+  <ShiftGroups>
+    <GroupID>24</GroupID>
+    <GroupName>Grupp 24</GroupName>
+    <GroupDescription />
+  </ShiftGroups>
+  <ShiftGroups>
+    <GroupID>25</GroupID>
+    <GroupName>Grupp 25</GroupName>
+    <GroupDescription />
+  </ShiftGroups>
+  <ShiftGroups>
+    <GroupID>26</GroupID>
+    <GroupName>Grupp 26</GroupName>
+    <GroupDescription />
+  </ShiftGroups>
+  <ShiftGroups>
+    <GroupID>27</GroupID>
+    <GroupName>Grupp 27</GroupName>
+    <GroupDescription />
+  </ShiftGroups>
+  <ShiftGroups>
+    <GroupID>28</GroupID>
+    <GroupName>Grupp 28</GroupName>
+    <GroupDescription />
+  </ShiftGroups>
+  <ShiftGroups>
+    <GroupID>29</GroupID>
+    <GroupName>Grupp 29</GroupName>
+    <GroupDescription />
+  </ShiftGroups>
+  <ShiftGroups>
+    <GroupID>30</GroupID>
+    <GroupName>Grupp 30</GroupName>
+    <GroupDescription />
+  </ShiftGroups>
+  <NeedReferenceGroups>
+    <GroupID>1</GroupID>
+    <GroupName>Bemanningsmål (Max.värde)</GroupName>
+    <GroupDescription>Bemanningsmål (Max.värde)</GroupDescription>
+  </NeedReferenceGroups>
+  <NeedReferenceGroups>
+    <GroupID>2</GroupID>
+    <GroupName>Bemanningsmål (Min.värde)</GroupName>
+    <GroupDescription>Bemanningsmål (Min.värde)</GroupDescription>
+  </NeedReferenceGroups>
+  <NeedReferenceGroups>
+    <GroupID>3</GroupID>
+    <GroupName>Bemanningsmål enl. Behovsschema</GroupName>
+    <GroupDescription>Bemanningsmål enl. Behovsschema</GroupDescription>
+  </NeedReferenceGroups>
+  <NeedReferenceGroups>
+    <GroupID>4</GroupID>
+    <GroupName>Bemanningsmål Egendefinerad</GroupName>
+    <GroupDescription>Bemanningsmål Egendefinerad</GroupDescription>
+  </NeedReferenceGroups>
+  <NeedReferenceGroups>
+    <GroupID>5</GroupID>
+    <GroupName>Bemanningsmål Egendefinerad</GroupName>
+    <GroupDescription>Bemanningsmål Egendefinerad</GroupDescription>
+  </NeedReferenceGroups>
+  <WageCostBudget>
+    <Name>Standard</Name>
+    <BudgetWage>0|0|0|0|0|0|0|0|0|0|0|0</BudgetWage>
+    <BudgetUW />
+    <BudgetDuty>0|0|0|0|0|0|0|0|0|0|0|0</BudgetDuty>
+    <BudgetPrep>0|0|0|0|0|0|0|0|0|0|0|0</BudgetPrep>
+    <BudgetOtherCost>0|0|0|0|0|0|0|0|0|0|0|0</BudgetOtherCost>
+    <BudgetTotalSalary>0|0|0|0|0|0|0|0|0|0|0|0</BudgetTotalSalary>
+    <BudgetTotalCost>0|0|0|0|0|0|0|0|0|0|0|0</BudgetTotalCost>
+    <BudgetSocialPensionCost />
+    <OutcomeWage>0|0|0|0|0|0|0|0|0|0|0|0</OutcomeWage>
+    <OutcomeUW />
+    <OutcomeDuty>0|0|0|0|0|0|0|0|0|0|0|0</OutcomeDuty>
+    <OutcomePrep>0|0|0|0|0|0|0|0|0|0|0|0</OutcomePrep>
+    <OutcomeOtherCost>0|0|0|0|0|0|0|0|0|0|0|0</OutcomeOtherCost>
+    <OutcomeTotalSalary>0|0|0|0|0|0|0|0|0|0|0|0</OutcomeTotalSalary>
+    <OutcomeTotalCost>0|0|0|0|0|0|0|0|0|0|0|0</OutcomeTotalCost>
+    <OutcomeSocialPensionCost />
+  </WageCostBudget>
+</ScheduleData>

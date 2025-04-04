@@ -1,0 +1,173 @@
+employees:
+  - name: Åsa Jansson
+    employee_number: 1060
+    work_load: 100
+  - name: Olle Gustavsson
+    employee_number: 1040
+    work_load: 80
+  - name: Anders Karlsson
+    employee_number: 1050
+    work_load: 100
+
+shift_types:
+  - id: D
+    time_slots:
+      - start_time: "08:45:00"
+        end_time: "16:30:00"
+        duration: 465
+  - id: N
+    time_slots:
+      - start_time: "21:00:00"
+        end_time: "09:15:00"
+        duration: 735
+  - id: E1
+    time_slots:
+      - start_time: "14:30:00"
+        end_time: "21:30:00"
+        duration: 420
+
+shifts:
+  - start_date: "2025-01-06"
+    employee:
+      name: Åsa Jansson
+      employee_number: 1060
+      work_load: 100
+    shift_type:
+      id: D
+      time_slots:
+        - start_time: "08:45:00"
+          end_time: "16:30:00"
+          duration: 465
+  - start_date: "2025-01-07"
+    employee:
+      name: Åsa Jansson
+      employee_number: 1060
+      work_load: 100
+    shift_type:
+      id: D
+      time_slots:
+        - start_time: "08:45:00"
+          end_time: "16:30:00"
+          duration: 465
+  - start_date: "2025-01-08"
+    employee:
+      name: Åsa Jansson
+      employee_number: 1060
+      work_load: 100
+    shift_type:
+      id: D
+      time_slots:
+        - start_time: "08:45:00"
+          end_time: "16:30:00"
+          duration: 465
+  - start_date: "2025-01-09"
+    employee:
+      name: Åsa Jansson
+      employee_number: 1060
+      work_load: 100
+    shift_type:
+      id: D
+      time_slots:
+        - start_time: "08:45:00"
+          end_time: "16:30:00"
+          duration: 465
+  - start_date: "2025-01-10"
+    employee:
+      name: Åsa Jansson
+      employee_number: 1060
+      work_load: 100
+    shift_type:
+      id: N
+      time_slots:
+        - start_time: "21:00:00"
+          end_time: "09:15:00"
+          duration: 735
+  - start_date: "2025-01-06"
+    employee:
+      name: Olle Gustavsson
+      employee_number: 1040
+      work_load: 80
+    shift_type:
+      id: E1
+      time_slots:
+        - start_time: "14:30:00"
+          end_time: "21:30:00"
+          duration: 420
+  - start_date: "2025-01-07"
+    employee:
+      name: Olle Gustavsson
+      employee_number: 1040
+      work_load: 80
+    shift_type:
+      id: E1
+      time_slots:
+        - start_time: "14:30:00"
+          end_time: "21:30:00"
+          duration: 420
+  - start_date: "2025-01-08"
+    employee:
+      name: Olle Gustavsson
+      employee_number: 1040
+      work_load: 80
+    shift_type:
+      id: N
+      time_slots:
+        - start_time: "21:00:00"
+          end_time: "09:15:00"
+          duration: 735
+  - start_date: "2025-01-06"
+    employee:
+      name: Anders Karlsson
+      employee_number: 1050
+      work_load: 100
+    shift_type:
+      id: N
+      time_slots:
+        - start_time: "21:00:00"
+          end_time: "09:15:00"
+          duration: 735
+  - start_date: "2025-01-07"
+    employee:
+      name: Anders Karlsson
+      employee_number: 1050
+      work_load: 100
+    shift_type:
+      id: N
+      time_slots:
+        - start_time: "21:00:00"
+          end_time: "09:15:00"
+          duration: 735
+  - start_date: "2025-01-08"
+    employee:
+      name: Anders Karlsson
+      employee_number: 1050
+      work_load: 100
+    shift_type:
+      id: E1
+      time_slots:
+        - start_time: "14:30:00"
+          end_time: "21:30:00"
+          duration: 420
+
+schedule:
+  shifts:
+    - id: D
+      time_slots:
+        - start_time: "08:45:00"
+          end_time: "16:30:00"
+          duration: 465
+    - id: N
+      time_slots:
+        - start_time: "21:00:00"
+          end_time: "09:15:00"
+          duration: 735
+    - id: E1
+      time_slots:
+        - start_time: "14:30:00"
+          end_time: "21:30:00"
+          duration: 420
+
+rules:
+  rule: 11_hour_rest
+  description: Employees must have at least 11 hours of rest between shifts
+  severity: high 
